@@ -1,0 +1,441 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="pt-br"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width" />
+<title>Atron</title>
+<!-- icons -->
+<link rel="shortcut icon" href="images/ico/favicon.ico">
+<!-- css -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+<link rel="stylesheet" href="css/main.css">
+<!-- js -->
+<script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+<!-- funcao slider -->
+<link rel="stylesheet" href="css/layerslider.css" id="layerslider_css-css" media="all" />
+<script src="js/layerslider.kreaturamedia.jquery.js"></script>
+<script src="js/jquery-easing-1.3.js"></script>
+<script src="js/jquerytransit.js"></script>
+</head>
+<body>
+      <header class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </a>
+        <a id="logo" class="pull-left" href="index.html"></a>
+        <div class="nav-collapse collapse pull-right">
+	<ul class="nav">
+	<li><a href="index.html">Home</a></li>
+	<li><a href="empresa.html">Empresa</a></li>
+	<li><a href="produtos.html">Produtos</a></li>
+	<li><a href="videos.html">Vídeos</a></li>
+	<li><a href="contato.html">Contato</a></li>
+	<li class="phone-topo"><a href="tel:01131686600">(11) 3168-6600</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+  </header>     <!--slider-->
+		<div class="slider">
+					<script>var lsjQuery = jQuery;</script><script>
+lsjQuery(document).ready(function() {
+                if(typeof lsjQuery.fn.layerSlider == "undefined") { lsShowNotice('layerslider_2','jquery'); }
+                    else if(typeof lsjQuery.transit == "undefined" || typeof lsjQuery.transit.modifiedForLayerSlider == "undefined") { lsShowNotice('layerslider_2', 'transit'); }
+                        else {
+                            lsjQuery("#layerslider_2").layerSlider({
+                                width : '1583px',
+                                height : '459px',
+                                responsive : true,
+                                responsiveUnder : 0,
+                                sublayerContainer : 0,
+                                autoStart : true,
+                                pauseOnHover : true,
+                                firstLayer : 1,
+                                animateFirstLayer : false,
+                                randomSlideshow : false,
+                                twoWaySlideshow : true,
+                                loops : 0,
+                                forceLoopNum : true,
+                                autoPlayVideos : true,
+                                autoPauseSlideshow : 'auto',
+                                youtubePreview : 'maxresdefault.jpg',
+                                keybNav : true,
+                                touchNav : true,
+                                skin : 'borderlesslight3d',
+                                skinsPath : 'skins/',
+globalBGColor : 'transparent',
+navPrevNext : true,
+                                navStartStop : false,
+                                navButtons : false,
+                                hoverPrevNext : true,
+                                hoverBottomNav : false,
+                                showBarTimer : false,
+                                showCircleTimer : false,
+                                thumbnailNavigation : 'disabled',
+                                tnWidth : 100,
+                                tnHeight : 60,
+                                tnContainerWidth : '60%',
+                                tnActiveOpacity : 35,
+                                tnInactiveOpacity : 100,
+                                imgPreload : true,
+                        		yourLogo : false,
+                                yourLogoStyle : 'left: 10px; top: 10px;',
+                                yourLogoLink : false,
+                                yourLogoTarget : '_self',
+                                cbInit : function(element) { },
+                                cbStart : function(data) { },
+                                cbStop : function(data) { },
+                                cbPause : function(data) { },
+                                cbAnimStart : function(data) { },
+                                cbAnimStop : function(data) { },
+                                cbPrev : function(data) { },
+                                cbNext : function(data) { }
+                            });
+                        }
+            });
+        </script>
+        <div class="ls-wp-fullwidth-container" style="height: 433px;"><div class="ls-wp-fullwidth-helper" style="height: 433px; width: 1490px; left: 0px;"><div id="layerslider_2" class="ls-wp-container ls-container ls-carousel" style="width: 1490px; height: 433px; margin: 0px auto; visibility: visible;"><div class="ls-layer" style="width: 0px; height: 433px; visibility: visible; display: none; left: 0px; right: auto; top: 0px; bottom: auto;">
+		<img src="images/banner-01.jpg" class="ls-bg" alt="Slide background" style="padding: 0px; border-width: 0px; width: 1493px; height: 433px; margin-left: -746.5px; margin-top: -216.5px; visibility: visible;"/></div><div class="ls-layer" style="width: 0px; height: 433px; visibility: visible; display: none; left: 0px; right: auto; top: 0px; bottom: auto;">
+		<img src="images/banner-02.jpg" class="ls-bg" alt="Slide background" style="padding: 0px; border-width: 0px; width: 1490px; height: 433px; margin-left: -746.5px; margin-top: -216.5px; visibility: visible;"/></div></div><div class="ls-loading-container" style="z-index: -1; display: none;"><div class="ls-loading-indicator"></div></div><a class="ls-nav-prev" href="#" style="visibility: visible; display: none;"></a><a class="ls-nav-next" href="#" style="visibility: visible; display: none;"></a><div class="ls-shadow"></div></div></div>
+  </div>
+<!--/slider-->
+
+<section id="services">
+    <div class="center">
+      <img src="images/logo-01.png" alt="Atron" title="Atron" /><br /><br />
+﻿	<br />
+	<h4>Atendimento: <a href="tel:01131686600">(11) 3168-6600</a> / <a href="tel:01131686600"> 3168-6600</a></h4>    </div>
+</section>
+
+<section class="destaque-home">
+			<h2 class="center gap">Produtos</h2>
+
+        <div class="container">
+            <div class="row-fluid">
+				<div class="span4">
+                    <div class="center box">
+<a href="produto-01.html"><img src="images/produto-01.jpg" alt="Produtos" />
+                        <p> </p>
+                        <h4>Motor AC</h4></a>
+						<div class="main-border orange"></div>
+                        <p> </p>
+                        <p>Automatizadores AC.</p>
+            <div class="center">
+                <a class="btn btn-primary btn-large" href="produto-01.html">saiba mais <i class="fa fa-angle-double-right"></i></a>
+            </div>
+                    </div>
+    <br />
+                </div>
+			
+			
+                <div class="span4">
+                    <div class="center box">
+<a href="produto-02.html"><img src="images/produto-02.jpg" alt="Produtos" />
+                        <p> </p>
+                        <h4>Motor DC</h4></a>
+						<div class="main-border orange"></div>
+                        <p> </p>
+                        <p>Automatizadores DC.</p>
+            <div class="center">
+                <a class="btn btn-primary btn-large" href="produto-02.html">saiba mais <i class="fa fa-angle-double-right"></i></a>
+            </div>
+                    </div>
+    <br />
+                </div>
+
+
+                <div class="span4">
+                    <div class="center box">
+<a href="produto-03.html"><img src="images/produto-03.jpg" alt="Produtos" />
+                        <p> </p>
+                        <h4>Acessórios</h4></a>
+						<div class="main-border orange"></div>
+                        <p> </p>
+                        <p>Acessórios para Automatização.</p>
+            <div class="center">
+                <a class="btn btn-primary btn-large" href="produto-03.html">saiba mais <i class="fa fa-angle-double-right"></i></a>
+            </div>
+                    </div>
+    <br class="hr12">
+                </div>
+				
+            </div>
+
+        </div>
+		
+</section>
+		
+		
+<section id="recent-works">		
+	<div class="container">
+		<h2 class="center litte-gap box">Portfólio</h2>
+		<h5 class="center gap box">Confira Nossos Catálogos</h5>
+		<div class="row-fluid">
+			<div class="span4">
+                <div class="center box">
+<a href="pdf/ape.pdf" target="_blank"><img src="images/home-01.png" alt="catalogo" />
+                    <p> </p>
+                    <h4>Automatizadores para Porta de Enrolar</h4></a>
+					<div class="main-border orange"></div>
+                    <p> </p>
+                    <p>Download do Catálogo.</p>
+            <div class="center">
+                <a class="btn btn-success" href="pdf/ape.pdf" target="_blank"><i class="fa fa-external-link"></i> visualizar</a>
+            </div>
+                </div>
+	<br class="hr12">	
+            </div>
+			
+			
+			<div class="span4">
+                <div class="center box">
+<a href="pdf/ma.pdf" target="_blank"><img src="images/home-02.png" alt="catalogo" />
+                    <p> </p>
+                    <h4>Máquinas Atrox</h4></a>
+					<div class="main-border orange"></div>
+                    <p> </p>
+                    <p>Download do Catálogo.</p>
+            <div class="center">
+                <a class="btn btn-success" href="pdf/ma.pdf" target="_blank"><i class="fa fa-external-link"></i> visualizar</a>
+            </div>
+                </div>
+	<br class="hr12">	
+            </div>
+			
+			
+			
+			<div class="span4">
+                <div class="center box">
+<a href="pdf/manual.pdf" target="_blank"><img src="images/home-06.png" alt="catalogo" />
+                    <p> </p>
+                    <h4>Manual CW21</h4></a>
+					<div class="main-border orange"></div>
+                    <p> </p>
+                    <p>Download do Catálogo.</p>
+            <div class="center">
+                <a class="btn btn-success" href="pdf/manual.pdf" target="_blank"><i class="fa fa-external-link"></i> visualizar</a>
+            </div>
+                </div>
+		
+            </div>
+		
+		</div>
+			
+	</div>
+
+</section>
+
+
+<section id="recent-works2">		
+		<div class="container">
+			<h2 class="center gap">Soluções em Automatização de Portas de Enrolar</h2>
+			<div class="row-fluid">
+                <div class="span4">
+					<div class="center">
+<img src="images/home-03.jpg" class="fotoCentro fotoMoldura" alt="Atron" />
+					</div>
+	<br />
+				</div>
+				
+				
+				<div class="span4">
+					<div class="center">
+<img src="images/home-04.jpg" class="fotoCentro fotoMoldura" alt="Atron" />
+					</div>
+	<br />
+				</div>
+				
+				
+				<div class="span4">
+					<div class="center">
+<img src="images/home-05.jpg" class="fotoCentro fotoMoldura" alt="Atron" />
+					</div>
+	
+				</div>
+
+            </div>
+			
+		</div>
+
+</section>
+
+
+<section class="main-info">
+    <div class="container">
+        <div class="row-fluid">
+            <div class="span9">
+                <h4>Fale com a Atron</h4>
+                <p class="no-margin">Entre em contato com nossos profissionais e solicite um orçamento.</p>
+    <br class="hr1">
+            </div>
+            <div class="span3">
+                <a class="btn btn-transparent btn-large pull-right" href="contato.html">Envie sua Mensagem</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!--bottom-->
+<section id="bottom" class="main">
+  <!--container-->
+  <div class="container">
+
+    <!--row-fluids-->
+    <div class="row-fluid">
+
+      <!--endereco-->
+      <div class="span4">
+        <h4>ENTRE EM CONTATO</h4>
+        <ul class="unstyled address">
+          <li><i class="fa fa-map-marker"></i> Rua João Mafra, 374<br />04288-000 - Ipiranga<br />São Paulo / SP</li>
+          <p><i class="fa fa-envelope"></i>&nbsp;<strong>E-mail: </strong><a href="mailto:sac@atron.com.br">sac@atron.com.br</a></p>
+            <!--<p><i class="fa fa-envelope"></i>&nbsp;<strong>E-mail: </strong><a href="mailto:conexao@atron.com.br">conexao@atron.com.br</a></p>
+			<p><i class="fa fa-envelope"></i>&nbsp;<strong>E-mail: </strong><a href="mailto:vendas@atron.com.br">vendas@atron.com.br</a></p>-->
+          <li><i class="fa fa-phone"></i> <strong>Atendimento: </strong><h4><a href="tel:01131686600">(11) 3168-6600</a></h4>
+		  <li><i class="fa fa-whatsapp"></i> <strong>Whats App: </strong><h4><a href="https://api.whatsapp.com/send?phone=5511966460854" target="_blank">(11) 96646-0854</a></h4><!--<h4><a href="https://api.whatsapp.com/send?phone=5511993878572" target="_blank">(11) 96646-0854</a></h4>-->
+        </ul>
+	<br class="hr1">
+      </div>
+      <!--/endereco-->
+
+      <!--menu-->
+      <div class="span2">
+        <h4>MENU</h4>
+        <div>
+          <ul class="arrow">
+	<li><a href="index.html">Home</a></li>
+	<li><a href="empresa.html">Empresa</a></li>
+	<li><a href="produtos.html">Produtos</a></li>
+	<li><a href="videos.html">Vídeos</a></li>
+	<li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>  
+      </div>
+      <!--/menu-->
+
+      <!--menu2-->
+      <div class="span3">
+        <div>
+          <ul class="arrow">
+		<li><a href="produto-01.html">Motor AC</a></li>
+	<li><a href="produto-02.html">Motor DC</a></li>
+	<li><a href="produto-03.html">Acessórios</a></li>		  </ul>
+        </div>
+      </div>
+      <!--/menu2-->
+
+      <div class="span3" id="rodape-face">
+        <div class="row-fluid">
+ <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-page" data-href="https://www.facebook.com/P%C3%A1gina-Atron-Motores-104537424485589" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/P%C3%A1gina-Atron-Motores-104537424485589"><a href="https://www.facebook.com/P%C3%A1gina-Atron-Motores-104537424485589">Facebook</a></blockquote></div></div>
+        </div>
+
+      </div>
+
+    </div>
+    <!--/row-fluid-->
+  </div>
+  <!--/container-->
+
+</section>
+<!--/bottom-->
+
+<!--footer-->
+<footer id="footer">
+  <div class="container">
+    <div class="row-fluid">
+      <div class="span5 cp">
+        &copy; 2020-2021 <a href="" title=" Motores">Atron</a>. Todos os Direitos Reservados.
+      </div>
+      <!--/copyright-->
+
+      <div class="span6">
+        <ul class="social pull-right">
+          <li><a href="https://validator.w3.org/check?uri=www.atron.com.br/index.html" target="_blank" title="html5 nos padrões W3C">
+<span class="fa-stack fa-lg">
+  <i class="fa fa-circle fa-stack-2x"></i>
+  <i class="fa fa-html5 fa-stack-1x fa-inverse"></i>
+</span></a></li>
+          <li><a href="https://jigsaw.w3.org/css-validator/validator?uri=www.atron.com.br/css/main.css" target="_blank" title="css3 nos padrões W3C">
+<span class="fa-stack fa-lg">
+  <i class="fa fa-circle fa-stack-2x"></i>
+  <i class="fa fa-css3 fa-stack-1x fa-inverse"></i>
+</span></a></li>
+          <li><a href="https://search.google.com/test/mobile-friendly?url=www.atron.com.br/index.html" target="_blank" title="Compatível com dispositivos móveis nos padrões Google">
+<span class="fa-stack fa-lg">
+  <i class="fa fa-circle fa-stack-2x"></i>
+  <i class="fa fa-tablet fa-stack-1x fa-inverse"></i>
+</span></a></li>
+		  <li><a href="https://br.pinterest.com/atronmotoress/" target="_blank" title="Pinterest Atron">
+<span class="fa-stack fa-lg bt-rodape">
+  <i class="fa fa-circle fa-stack-2x"></i>
+  <i class="fa fa-pinterest fa-stack-1x fa-inverse"></i>
+</span></a></li>
+		  <li><a href="https://www.facebook.com/Atronmotor" target="_blank" title="Facebook Atron">
+<span class="fa-stack fa-lg bt-rodape">
+  <i class="fa fa-circle fa-stack-2x"></i>
+  <i class="fa fa-facebook-official fa-stack-1x fa-inverse"></i>
+</span></a></li>
+		  <li><a href="https://www.instagram.com/atronmotores/" target="_blank" title="Instagram Atron">
+<span class="fa-stack fa-lg bt-rodape">
+  <i class="fa fa-circle fa-stack-2x"></i>
+  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+</span></a></li>
+        </ul>
+      </div>
+
+      <div class="span1">
+        <br class="hr1"><a id="gototop" class="gototop pull-right" href="#"><i class="fa fa-angle-up"></i></a>
+      </div>
+      <!--/go to top-->
+    </div>
+  </div>
+ <!--whatsapp-->
+	<a data-toggle="modal" href="#modal-1"> <img src="images/whatsapp-01.png" class="whats1" alt="WhatsApp" style="height:80px;position:fixed;bottom:55px;right:25px;z-index:10;" data-selector="img"></a>
+	
+	    <div id="modal-1" class="modal hiden fade">
+            <a class="close-modal" href="javascript:;" data-dismiss="modal" aria-hidden="true"><i class="fa fa-times"></i></a>
+                <div class="modal-body">
+                    <a href="https://web.whatsapp.com/send?phone=5511966460854" target="_blank"> <h3><img src="images/whatsapp-02.png" alt="whats" width="64" height="64"> - Consultor</h3></a>
+					<!--<a href="https://web.whatsapp.com/send?phone=5511993878572" target="_blank"> <h3><img src="images/whatsapp-02.png" alt="whats" width="64" height="64"> - Vendedor 2</h3></a> -->
+                </div>
+        </div>
+	    
+
+	<a data-toggle="modal" href="#modal-2"> <img src="images/whatsapp-02.png" class="whats2" alt="WhatsApp" style="height:80px;position:fixed;bottom:25px;left:25px;z-index:10;" data-selector="img"></a>
+	
+		<div id="modal-2" class="modal hiden fade">
+            <a class="close-modal" href="javascript:;" data-dismiss="modal" aria-hidden="true"><i class="fa fa-times"></i></a>
+                <div class="modal-body">
+                    <a href="https://api.whatsapp.com/send?phone=5511978513827" target="_blank"> <h3><img src="images/whatsapp-02.png" alt="whats" width="64" height="64"> - Vendedor 1</h3></a>
+					<a href="https://api.whatsapp.com/send?phone=5511993878572" target="_blank"> <h3><img src="images/whatsapp-02.png" alt="whats" width="64" height="64"> - Vendedor 2</h3></a>
+                </div>
+        </div>
+  <!--/whatsapp-->
+
+</footer>
+<!--/footer-->
+</body>
+</html>
