@@ -10,6 +10,8 @@ header {
   background-color: #000000;
 }
 
+/*Barra de navegação*/
+
 .navbar-nav .nav-link {
   color: #ffffff;
   font-weight: 600;
@@ -21,11 +23,15 @@ header {
   border-bottom: 2px solid #fcce3a;
 }
 
+/*Frase de efeito*/
+
 section.bg-warning {
   background: linear-gradient(90deg, #f9d423, #ffb347);
   color: #000;
   padding: 60px 0;
 }
+
+/*Cards(produtos e porfolio)*/
 
 .card {
   background-color: #fefefe;
@@ -41,10 +47,16 @@ section.bg-warning {
 
 .btn-primary {
   background-color: #fcce3a;
+  
   border: none;
   color: #000;
   font-weight: bold;
   padding: 10px 20px;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary:active:focus, .open>.dropdown-toggle.btn-primary {
+  background-color: #FCA63A;
+  border: none;
 }
 
 #produtos_index{
@@ -64,4 +76,8 @@ section.bg-warning {
 
 #display-5 {
   color: #000;
+}
+
+#faleConosco_index{
+  background-color: #D3D3D3;
 }
