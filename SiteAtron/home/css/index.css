@@ -80,4 +80,8 @@ section.bg-warning {
 
 #faleConosco_index{
   background-color: #D3D3D3;
+  border-radius: 20px;
+  border: #000000;
+  padding: 150px;
+
 }
