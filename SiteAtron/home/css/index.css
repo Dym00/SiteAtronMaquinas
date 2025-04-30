@@ -48,11 +48,15 @@ section.bg-warning {
 }
 
 #produtos_index{
-  background-color: lightgray;
-  border-radius: 20px;
+  background-color: #D3D3D3;
+  border-radius: 15px;
 }
 
 #portfolio_index{
-  background-color: lightgray;
-  border-radius: 20px;
+  background-color: #D3D3D3;
+  border-radius: 15px;
+}
+
+#display-5 {
+  color: #000;
 }
