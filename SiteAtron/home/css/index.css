@@ -46,3 +46,13 @@ section.bg-warning {
   font-weight: bold;
   padding: 10px 20px;
 }
+
+#produtos_index{
+  background-color: lightgray;
+  border-radius: 20px;
+}
+
+#portfolio_index{
+  background-color: lightgray;
+  border-radius: 20px;
+}
