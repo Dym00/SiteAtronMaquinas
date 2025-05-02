@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Atron Motores</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #fff;
+      color: #000;
+    }
+
+    header {
+      background: #000;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      color: #FFD700;
+      font-size: 1.8rem;
+    }
+
+    nav {
+      background: #222;
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      padding: 0.8rem;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 0.5rem;
+    }
+
+    nav a:hover {
+      color: #FFD700;
+    }
+
+    .banner {
+      background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+        url('https://images.unsplash.com/photo-1602491674127-fcae57b58df7') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 6rem 1rem;
+    }
+
+    .banner h2 {
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+    }
+
+    .banner p {
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .btn {
+      background-color: #FFD700;
+      color: black;
+      padding: 0.8rem 1.5rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+
+    .btn:hover {
+      background-color: #e6c200;
+    }
+
+    .produtos, .diferenciais {
+      padding: 2rem 1rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .produtos h3, .diferenciais h3 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+      font-size: 1.6rem;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .card {
+      background: #f5f5f5;
+      width: 300px;
+      padding: 1rem;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .card h4 {
+      margin-top: 0.8rem;
+      font-size: 1.1rem;
+    }
+
+    .card p {
+      font-size: 0.95rem;
+      margin: 0.5rem 0;
+    }
+
+    .diferenciais .cards {
+      flex-wrap: wrap;
+    }
+
+    .icone {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .contato {
+      background: #fff8dc;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    .contato h3 {
+      margin-bottom: 1rem;
+    }
+
+    .contato input, .contato textarea {
+      width: 100%;
+      max-width: 400px;
+      padding: 0.7rem;
+      margin: 0.5rem 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .footer {
+      background: #000;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+
+    /* Responsivo */
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+
+      .banner h2 {
+        font-size: 1.6rem;
+      }
+
+      .cards {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .card {
+        width: 90%;
+      }
+
+      .contato input, .contato textarea {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Atron Motores</h1>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Catálogos</a>
+    <a href="#">Galeria</a>
+    <a href="#">Contato</a>
+  </nav>
+
+  <section class="banner">
+    <h2>Automatize com qualidade e segurança</h2>
+    <p>Conheça os motores Atron para portas de enrolar automáticas</p>
+    <button class="btn">Peça seu orçamento</button>
+  </section>
+
+  <section class="produtos">
+    <h3>Catálogos em Destaque</h3>
+    <div class="cards">
+      <div class="card">
+        <img src="https://via.placeholder.com/300x180" alt="Motor 1"/>
+        <h4>Motor Atron 1.0</h4>
+        <p>Ideal para pequenos comércios.</p>
+        <button class="btn">Ver detalhes</button>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x180" alt="Motor 2"/>
+        <h4>Motor Atron 2.0</h4>
+        <p>Mais potência e resistência para uso intensivo.</p>
+        <button class="btn">Ver detalhes</button>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x180" alt="Motor 3"/>
+        <h4>Motor Atron Max</h4>
+        <p>Desempenho profissional com alta durabilidade.</p>
+        <button class="btn">Ver detalhes</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="diferenciais">
+    <h3>Diferenciais Atron</h3>
+    <div class="cards">
+      <div class="card">
+        <div class="icone">🔒</div>
+        <h4>Segurança</h4>
+        <p>Proteção e tecnologia em cada detalhe.</p>
+      </div>
+      <div class="card">
+        <div class="icone">💪</div>
+        <h4>Durabilidade</h4>
+        <p>Produtos robustos para qualquer necessidade.</p>
+      </div>
+      <div class="card">
+        <div class="icone">🛠️</div>
+        <h4>Suporte Técnico</h4>
+        <p>Atendimento especializado para sua tranquilidade.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contato">
+    <h3>Fale com a Atron</h3>
+    <input type="text" placeholder="Seu nome" />
+    <input type="email" placeholder="Seu e-mail" />
+    <textarea rows="4" placeholder="Sua mensagem"></textarea><br>
+    <button class="btn">Enviar</button>
+  </section>
+
+  <footer class="footer">
+    © 2025 Atron Motores. Todos os direitos reservados.
+  </footer>
+</body>
+</html>
