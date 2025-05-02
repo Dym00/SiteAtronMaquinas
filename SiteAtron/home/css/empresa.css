@@ -97,7 +97,7 @@ body {
   .icon-card i { font-size: 2rem; color: #E6B800; }
 
   #hero { position: relative; height: 50vh; background: url('images/atron_motores.jpg') center/cover no-repeat; }
-  #hero .overlay { position: absolute; inset: 0; background: linear-gradient(90deg, #f9d423, #ffb347);}
+  #hero .overlay { position: absolute; inset: 0; background: #BF9B63;}
   #hero .content { position: relative; z-index: 1; color: black; text-align: center; top: 50%; transform: translateY(-50%); }
 
   /* Lightbox */
