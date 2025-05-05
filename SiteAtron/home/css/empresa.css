@@ -96,10 +96,71 @@ body {
   } 
 
   .icon-card i { font-size: 2rem; color: #E6B800; }
+/* HERO SECTION */
+.hero {
+  position: relative;
+  background: url('/SiteAtron/home/images/atron_motores.JPG') center center / cover no-repeat;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  overflow: hidden;
+}
 
-  #hero { position: relative; height: 50vh; background: url('images/atron_motores.jpg') center/cover no-repeat; }
-  #hero .overlay { position: absolute; inset: 0; background: #BF9B63;}
-  #hero .content { position: relative; z-index: 1; color: white; text-align: center; top: 50%; transform: translateY(-50%); }
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4); /* Escurecimento apenas da imagem */
+  z-index: 1;
+}
+
+.hero .hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 1200px;
+  padding: 0 20px;
+  width: 100%;
+  color: #000; /* Textos sem escurecimento */
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 25px;
+  max-width: 600px;
+  color: #ffffff;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .hero {
+    height: 380px;
+    padding: 40px 0;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .hero .hero-content {
+    padding: 0 15px;
+  }
+
+}
+
 
   /* Lightbox */
   .modal-img { max-width: 100%; }
@@ -110,27 +171,3 @@ body {
     text-align: center;
   }
 
-  #hero {
-    position: relative;
-    background-image: url('../images/atron_motores.jpg');
-    background-size: cover;
-    background-position: center;
-    color: white;
-    padding: 100px 0;
-  }
-  
-  #hero .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,0.5); /* escurece a imagem */
-    z-index: 1;
-  }
-  
-  #hero .content {
-    position: relative;
-    z-index: 2;
-  }
-  

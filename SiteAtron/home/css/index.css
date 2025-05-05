@@ -23,13 +23,6 @@ header {
   border-bottom: 2px solid #fcce3a;
 }
 
-/*Frase de efeito*/
-
-section.bg-warning {
-  background: linear-gradient(90deg, #f9d423, #ffb347);
-  color: #000;
-  padding: 60px 0;
-}
 
 /*Cards(produtos e porfolio)*/
 
