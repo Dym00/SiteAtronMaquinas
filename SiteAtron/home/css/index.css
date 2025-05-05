@@ -94,15 +94,3 @@ section.bg-warning {
   width: 200px;
   color: #B0B0B0;
 } 
-
-.produtos, .diferenciais {
-  padding: 2rem 1rem;
-  max-width: 1200px;
-  margin: auto;
-}
-
-.produtos h3, .diferenciais h3 {
-  text-align: center;
-  margin-bottom: 1.5rem;
-  font-size: 1.6rem;
-}
