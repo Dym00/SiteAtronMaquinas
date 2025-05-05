@@ -93,9 +93,6 @@ section.bg-warning {
 #logo-ad{
   width: 200px;
   color: #B0B0B0;
-<<<<<<< Updated upstream
-} 
-=======
 } 
 
 .produtos{
@@ -202,10 +199,6 @@ section.bg-warning {
   color: #ffffff;
 }
 
-
-
-
-
 /* Responsivo */
 @media (max-width: 768px) {
   .hero {
@@ -225,9 +218,5 @@ section.bg-warning {
   .hero .hero-content {
     padding: 0 15px;
   }
-<<<<<<< Updated upstream
+
 }
->>>>>>> Stashed changes
-=======
-}
->>>>>>> Stashed changes
