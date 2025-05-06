@@ -399,16 +399,6 @@
       margin-bottom: 1.5rem;
     }
     
-    .footer-contact a {
-      color: var(--primary);
-      text-decoration: none;
-      transition: all 0.3s ease;
-    }
-    
-    .footer-contact a:hover {
-      color: var(--primary-hover);
-    }
-    
     .footer-heading {
       font-size: 1.2rem;
       margin-bottom: 1.5rem;
@@ -426,10 +416,35 @@
       background-color: var(--primary);
     }
     
+    .footer-contact li {
+      margin-bottom: 15px;
+      display: flex;
+      align-items: flex-start;
+    }
+    
+    .footer-contact li i {
+      color: var(--primary);
+      margin-right: 15px;
+      font-size: 18px;
+      margin-top: 3px;
+    }
+    
+    .footer-contact a {
+      color: var(--primary);
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    
+    .footer-contact a:hover {
+      color: var(--primary-hover);
+    }
+    
     .footer-bottom {
       padding-top: 2rem;
       margin-top: 3rem;
       border-top: 1px solid rgba(255,255,255,0.1);
+      background-color: #111;
+      padding: 20px 0;
     }
     
     /* WhatsApp Button */
@@ -565,8 +580,8 @@
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link active" href="empresa.html">Empresa</a></li>
+          <li class="nav-item"><a class="nav-link" href="redesign-home.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="redesign-empresa.html">Empresa</a></li>
           <li class="nav-item"><a class="nav-link" href="produtos.html">Produtos</a></li>
           <li class="nav-item"><a class="nav-link" href="videos.html">Vídeos</a></li>
           <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
@@ -691,19 +706,22 @@
   </section>
 
   <!-- Gallery Section -->
+
+  
   <section id="galeria" class="gallery-section">
     <div class="container">
       <h2 class="text-center gallery-title">Galeria de Instalações</h2>
+      
       <div class="row">
-        <div class="col-md-6 col-lg-4">
+        <div class="col-md-6">
           <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#galleryModal" data-index="0">
-            <img src="images/atron_motores.JPG "class="img-fluid" alt="Sede - João Mafra">
+            <img src="images/atron_motores.JPG" class="img-fluid" alt="Sede - João Mafra">
             <div class="gallery-caption">
               <h5>Sede - João Mafra</h5>
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4">
+        <div class="col-md-6">
           <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#galleryModal" data-index="1">
             <img src="images/atron_motores_02.JPG" class="img-fluid" alt="Estoque - Sede">
             <div class="gallery-caption">
@@ -711,8 +729,26 @@
             </div>
           </div>
         </div>
+      </div>
+      <div class="row">
         <div class="col-md-6 col-lg-4">
           <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#galleryModal" data-index="2">
+            <img src="images/empresa-10.jpg "class="img-fluid" alt="Estoque - João Mafra">
+            <div class="gallery-caption">
+              <h5>Estoque - João Mafra</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#galleryModal" data-index="3">
+            <img src="images/empresa-11.jpg" class="img-fluid" alt="Estoque - João Mafra">
+            <div class="gallery-caption">
+              <h5>Estoque - João Mafra</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#galleryModal" data-index="4">
             <img src="images/empresa-09.jpg" class="img-fluid" alt="Estoque - João Mafra">
             <div class="gallery-caption">
               <h5>Estoque - João Mafra</h5>
@@ -721,25 +757,7 @@
         </div>
       </div>
       
-      <h3 class="text-center mt-5 mb-4">Perfiladeira e Bobinas</h3>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#galleryModal" data-index="3">
-            <img src="images/empresa-11.jpg" class="img-fluid" alt="Perfiladeira Atrox">
-            <div class="gallery-caption">
-              <h5>Perfiladeira Atrox</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#galleryModal" data-index="4">
-            <img src="images/empresa-12.jpg" class="img-fluid" alt="Bobinas">
-            <div class="gallery-caption">
-              <h5>Bobinas</h5>
-            </div>
-          </div>
-        </div>
-      </div>
+      
     </div>
   </section>
 
@@ -772,10 +790,12 @@
         </div>
         <div class="col-lg-4 mb-4 mb-lg-0 footer-contact">
           <h4 class="footer-heading">Contato</h4>
-          <p><i class="fas fa-envelope me-2"></i> sac@atron.com.br</p>
-          <p><i class="fas fa-map-marker-alt me-2"></i> Rua João Mafra, 375<br>04288-000 - Ipiranga<br>São Paulo / SP</p>
-          <p><i class="fas fa-phone me-2"></i> (11) 3168-6600</p>
-          <p><i class="fab fa-whatsapp me-2"></i> <a href="http://wa.me/5511988014644">(11) 98801-4644</a></p>
+          <ul class="list-unstyled footer-contact">
+            <li><i class="fas fa-envelope"></i> sac@atron.com.br</li>
+            <li><i class="fas fa-map-marker-alt"></i> Rua João Mafra, 375<br>04288-000 - Ipiranga<br>São Paulo / SP</li>
+            <li><i class="fas fa-phone"></i> (11) 3168-6600</li>
+            <li><i class="fab fa-whatsapp"></i> <a href="http://wa.me/5511988014644">(11) 98801-4644</a></li>
+          </ul>
         </div>
         <div class="col-lg-4">
           <h4 class="footer-heading">Redes Sociais</h4>
