@@ -84,11 +84,7 @@
         </li>
         <li class="nav-item" role="presentation">
           <button class="nav-link" id="motor-ac-tab" data-bs-toggle="tab" data-bs-target="#motor-ac" type="button"
-            role="tab" aria-controls="motor-ac" aria-selected="true">Motor AC</button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="nav-link" id="motor-dc-tab" data-bs-toggle="tab" data-bs-target="#motor-dc" type="button"
-            role="tab" aria-controls="motor-dc" aria-selected="false">Motor DC</button>
+            role="tab" aria-controls="motor-ac" aria-selected="true">Motores</button>
         </li>
         <li class="nav-item" role="presentation">
           <button class="nav-link" id="acessorios-tab" data-bs-toggle="tab" data-bs-target="#acessorios" type="button"
@@ -102,9 +98,9 @@
         <div class="tab-pane fade show active" id="todos" role="tabpanel" aria-labelledby="todos-tab">
           <!-- Motor AC -->
           <div class="category-section mt-5">
-            <h3 class="category-title">Motor AC</h3>
+            <h3 class="category-title">Motores</h3>
             <div class="row">
-              <div class="col-lg-4 col-md-6">
+              <div class="col-lg-6 col-md-12">
                 <div class="product-card">
                   <div class="product-image">
                     <img src="images/produto-01.jpg" alt="Motor AC ">
@@ -113,7 +109,207 @@
                     <h3 class="product-title">Motor AC </h3>
                     <p class="product-text">Ideal para portas de enrolar comerciais com até 12m², oferecendo potência e
                       resistência para uso intenso.</p>
+                      <!-- Seletor de modelos -->
+                    <div class="model-selector" id="ac-model-selector">
+                      <button class="model-btn active" data-model="AC200">AC200</button>
+                      <button class="model-btn" data-model="AC300">AC300</button>
+                      <button class="model-btn" data-model="AC400">AC400</button>
+                      <button class="model-btn" data-model="AC500">AC500</button>
+                      <button class="model-btn" data-model="AC600">AC600</button>
+                      <button class="model-btn" data-model="AC700">AC700</button>
+                      <button class="model-btn" data-model="AC800">AC800</button>
+                      <button class="model-btn" data-model="AC1000">AC1000</button>
+                      <button class="model-btn" data-model="AC1500">AC1500</button>
+                      <button class="model-btn" data-model="AC2000">AC2000</button>
+                    </div>
+                      <!-- Tabela de especificações AC -->
+                    <table class="specs-table" id="ac-specs-table">
+                      <thead>
+                        <tr>
+                          <th>Modelo</th>
+                          <th>Potência</th>
+                          <th>Freq.</th>
+                          <th>Voltagem</th>
+                          <th>Corrente</th>
+                          <th>Peso (kg)</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr class="modelo-row selected" data-model="AC200">
+                          <td>AC200</td>
+                          <td>368 W</td>
+                          <td>60 HZ</td>
+                          <td>220 V</td>
+                          <td>1,5 A</td>
+                          <td>11,8</td>
+                        </tr>
+                        <tr class="modelo-row" data-model="AC300">
+                          <td>AC300</td>
+                          <td>490 W</td>
+                          <td>60 HZ</td>
+                          <td>220 V</td>
+                          <td>2,31 A</td>
+                          <td>12,45</td>
+                        </tr>
+                        <tr class="modelo-row" data-model="AC400">
+                          <td>AC400</td>
+                          <td>515 W</td>
+                          <td>60 HZ</td>
+                          <td>220 V</td>
+                          <td>2,41 A</td>
+                          <td>12,45</td>
+                        </tr>
+                        <tr class="modelo-row" data-model="AC500">
+                          <td>AC500</td>
+                          <td>708 W</td>
+                          <td>60 HZ</td>
+                          <td>220 V</td>
+                          <td>3,44 A</td>
+                          <td>13,3</td>
+                        </tr>
+                        <tr class="modelo-row" data-model="AC600">
+                          <td>AC600</td>
+                          <td>775 W</td>
+                          <td>60 HZ</td>
+                          <td>220 V</td>
+                          <td>4 A</td>
+                          <td>13,3</td>
+                        </tr>
+                        <tr class="modelo-row" data-model="AC700">
+                          <td>AC700</td>
+                          <td>802 W</td>
+                          <td>60 HZ</td>
+                          <td>220 V</td>
+                          <td>4,7 A</td>
+                          <td>15,9</td>
+                        </tr>
+                        <tr class="modelo-row" data-model="AC800">
+                          <td>AC800</td>
+                          <td>1160 W</td>
+                          <td>60 HZ</td>
+                          <td>220 V</td>
+                          <td>5,6 A</td>
+                          <td>17</td>
+                        </tr>
+                        <tr class="modelo-row" data-model="AC1000">
+                          <td>AC1000</td>
+                          <td>1353 W</td>
+                          <td>60 HZ</td>
+                          <td>220 V</td>
+                          <td>6,5 A</td>
+                          <td>18</td>
+                        </tr>
+                        <tr class="modelo-row" data-model="AC1500">
+                          <td>AC1500</td>
+                          <td>1646 W</td>
+                          <td>60 HZ</td>
+                          <td>220 V</td>
+                          <td>6,7 A</td>
+                          <td>22</td>
+                        </tr>
+                        <tr class="modelo-row" data-model="AC2000">
+                          <td>AC2000</td>
+                          <td>1904 W</td>
+                          <td>60 HZ</td>
+                          <td>220 V</td>
+                          <td>6,8 A</td>
+                          <td>30</td>
+                        </tr>
+                      </tbody>
+                    </table>
                     <a href="#" class="btn btn-primary">Ver detalhes</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <div class="product-card">
+                  <div class="product-image">
+                    <img src="images/produto-02.jpg" alt="Motor DC">
+                  </div>
+                  <div class="product-body">
+                    <h3 class="product-title">Motor DC </h3>
+                    <p class="product-text">Operação rápida e silenciosa, ideal para residências que buscam conforto e
+                      praticidade sem ruídos.</p>
+
+                      <!-- Seletor de modelos -->
+                    <div class="model-selector" id="ac-model-selector">
+                      <button class="model-btn active" data-model="AC200">AC200</button>
+                      <button class="model-btn" data-model="AC300">AC300</button>
+                      <button class="model-btn" data-model="AC400">AC400</button>
+                      <button class="model-btn" data-model="AC500">AC500</button>
+                      <button class="model-btn" data-model="AC600">AC600</button>
+                      <button class="model-btn" data-model="AC700">AC700</button>
+                      <button class="model-btn" data-model="AC800">AC800</button>
+                      <button class="model-btn" data-model="AC1000">AC1000</button>
+                      <button class="model-btn" data-model="AC1500">AC1500</button>
+                      <button class="model-btn" data-model="AC2000">AC2000</button>
+                    </div>
+
+                    <!-- Tabela de especificações AC -->
+                    <table class="specs-table" id="ac-specs-table">
+                      <thead>
+                        <tr>
+                          <th>Modelo</th>
+                          <th>Potência</th>
+                          <th>Freq.</th>
+                          <th>Voltagem</th>
+                          <th>Corrente</th>
+                          <th>Peso (kg)</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr class="modelo-row selected" data-model="AC200">
+                          <td>DC200</td>
+                          <td>150 W</td>
+                          <td>60 HZ</td>
+                          <td>220 V</td>
+                          <td>8 A</td>
+                          <td>16,8</td>
+                        </tr>
+                        <tr class="modelo-row" data-model="AC300">
+                          <td>DC300</td>
+                          <td>170 W</td>
+                          <td>60 HZ</td>
+                          <td>220 V</td>
+                          <td>9 A</td>
+                          <td>18,6</td>
+                        </tr>
+                        <tr class="modelo-row" data-model="AC400">
+                          <td>DC400</td>
+                          <td>180 W</td>
+                          <td>60 HZ</td>
+                          <td>220 V</td>
+                          <td>10 A</td>
+                          <td>19,2</td>
+                        </tr>
+                        <tr class="modelo-row" data-model="AC500">
+                          <td>DC500</td>
+                          <td>200 W</td>
+                          <td>60 HZ</td>
+                          <td>220 V</td>
+                          <td>15 A</td>
+                          <td>20,15</td>
+                        </tr>
+                        <tr class="modelo-row" data-model="AC600">
+                          <td>DC600</td>
+                          <td>220 W</td>
+                          <td>60 HZ</td>
+                          <td>220 V</td>
+                          <td>16 A</td>
+                          <td>20,15</td>
+                        </tr>
+                        <tr class="modelo-row" data-model="AC700">
+                          <td>DC700</td>
+                          <td>250 W</td>
+                          <td>60 HZ</td>
+                          <td>220 V</td>
+                          <td>18 A</td>
+                          <td>23,7</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <!--REALIZAR UMA AUTOMAÇÃO COM O WHATSAPP POSTERIORMENTE-->
+                    <a href="#" class="btn btn-primary">Solicitar um Orçamento</a>
                   </div>
                 </div>
               </div>
@@ -125,19 +321,7 @@
         <div class="category-section mt-5">
           <h3 class="category-title">Motor DC</h3>
           <div class="row">
-            <div class="col-lg-4 col-md-6">
-              <div class="product-card">
-                <div class="product-image">
-                  <img src="images/produto-02.jpg" alt="Motor DC">
-                </div>
-                <div class="product-body">
-                  <h3 class="product-title">Motor DC </h3>
-                  <p class="product-text">Operação rápida e silenciosa, ideal para residências que buscam conforto e
-                    praticidade sem ruídos.</p>
-                  <a href="#" class="btn btn-primary">Ver detalhes</a>
-                </div>
-              </div>
-            </div>
+            
           </div>
         </div>
 
@@ -153,8 +337,7 @@
                 <div class="product-body">
                   <h3 class="product-title">Botoeira</h3>
                   <p class="product-text">Controle simples e eficiente para operação manual da porta de enrolar com
-                    instalação prática e durável.</p>
-                  
+                    instalação prática e durável.</p> 
                 </div>
               </div>
             </div>
@@ -336,6 +519,36 @@
     </div>
   </div>
   </footer>
+
+   <!-- Script de filtro das abas -->
+   <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const filterButtons = document.querySelectorAll('[data-filter]');
+      const produtos = document.querySelectorAll('.produto');
+
+      filterButtons.forEach(button => {
+        button.addEventListener('click', () => {
+          const categoria = button.getAttribute('data-filter');
+
+          filterButtons.forEach(btn => btn.classList.remove('active'));
+          button.classList.add('active');
+
+          produtos.forEach(produto => {
+            const produtoCategoria = produto.getAttribute('data-category');
+
+            if (categoria === 'todos' || produtoCategoria === categoria) {
+              produto.style.display = 'block';
+            } else {
+              produto.style.display = 'none';
+            }
+          });
+        });
+      });
+    });
+  </script>
+
+   <!-- Scripts -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
   
 </body>

@@ -397,7 +397,106 @@
         height: 3px;
         background-color: var(--primary);
       }
-      
+
+   /* Tabela de especificações */
+    .specs-table {
+      width: 100%;
+      margin-top: 20px;
+      border-collapse: separate;
+      border-spacing: 0;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .specs-table thead {
+      background-color: var(--primary);
+    }
+
+    .specs-table th {
+      padding: 15px;
+      text-align: center;
+      font-weight: 600;
+    }
+
+    .specs-table td {
+      padding: 12px 15px;
+      text-align: center;
+      border-bottom: 1px solid #eee;
+    }
+
+    .specs-table tbody tr {
+      background-color: white;
+      transition: all 0.3s ease;
+    }
+
+    .specs-table tbody tr:hover {
+      background-color: #f9f9f9;
+    }
+
+    .specs-table tbody tr:last-child td {
+      border-bottom: none;
+    }
+
+    /* Modelo selecionado */
+    .modelo-row.selected {
+      background-color: rgba(252, 206, 58, 0.15) !important;
+    }
+
+    /* Detalhes do produto */
+    .product-details {
+      background-color: white;
+      border-radius: 16px;
+      padding: 30px;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.07);
+      margin-top: 30px;
+      display: none;
+    }
+
+    .detail-item {
+      margin-bottom: 20px;
+    }
+
+    .detail-item h4 {
+      font-size: 1.1rem;
+      margin-bottom: 8px;
+      color: var(--dark);
+    }
+
+    .detail-item p {
+      margin-bottom: 0;
+      color: #666;
+    }
+
+    /* Seletor de modelos */
+    .model-selector {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+
+    .model-btn {
+      background-color: white;
+      border: 2px solid #eee;
+      border-radius: 8px;
+      padding: 8px 16px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .model-btn:hover {
+      border-color: var(--primary);
+    }
+
+    .model-btn.active {
+      background-color: var(--primary);
+      border-color: var(--primary);
+      color: var(--dark);
+    }
+
+
       /* Responsividade */
       @media (max-width: 992px) {
         h1 {
@@ -428,6 +527,18 @@
         
         .categoria-tabs .nav-link {
           padding: 0.75rem 1rem;
+        }
+
+        .specs-table {
+          display: block;
+          overflow-x: auto;
+          white-space: nowrap;
+        }
+  
+        .model-selector {
+          overflow-x: auto;
+          flex-wrap: nowrap;
+          padding-bottom: 10px;
         }
       }
       
