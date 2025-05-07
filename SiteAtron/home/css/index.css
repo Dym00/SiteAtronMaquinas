@@ -99,7 +99,8 @@
     display: flex;
     align-items: center;
     color: white;
-    margin-top: 76px;
+    margin-top: 0 !important; /* Removido o margin-top de 76px */
+    padding-top: 76px; /* Adicionado padding-top para compensar a altura da navbar */
   }
   
   .hero::before {
@@ -318,7 +319,7 @@
     background-color: var(--primary);
   }
   
-  /* CTA Section */
+  /* CTA  */
   .cta-section {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/SiteAtron/home/images/heroPorta.png');
     background-size: cover;

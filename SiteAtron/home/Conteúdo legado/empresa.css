@@ -1,0 +1,168 @@
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F8F9FA;
+    color: #000000;
+  }
+  
+  header {
+    background-color: #000000;
+  }
+  
+  /*Barra de navegação*/
+  
+  .navbar-nav .nav-link {
+    color: #ffffff;
+    font-weight: 600;
+  }
+  
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link.active {
+    color: #fcce3a;
+    border-bottom: 2px solid #fcce3a;
+  }
+  
+  
+  /*Cards(produtos e porfolio)*/
+  
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    transition: all 0.3s;
+    border: 1px solid #eee;
+  }
+  
+  .card:hover {
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    transform: scale(1.02);
+  }
+
+  
+  .btn-primary {
+    background-color: #fcce3a;
+    
+    border: none;
+    color: #000;
+    font-weight: bold;
+    padding: 10px 20px;
+  }
+  
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary:active:focus, .open>.dropdown-toggle.btn-primary {
+    background-color: #FCA63A;
+    border: none;
+  }
+  
+  #valores_empresa{
+    background-color: white;
+    border-radius: 15px;
+  }
+  
+  #portfolio_index{
+    background-color: #D3D3D3;
+    border-radius: 15px;
+  }
+  
+  #galeria_index{
+    border-radius: 15px;
+  }
+  
+  #display-5 {
+    color: #000;
+  }
+  
+  #faleConosco_index{
+    background-color: #D3D3D3;
+    border-radius: 20px;
+    border: #000000;
+    padding: 150px;
+  
+  }
+  
+  #semifooter_index{
+    background-color: #B0B0B0;
+  }
+  
+  #logo-ad{
+    width: 200px;
+    color: #B0B0B0;
+  } 
+
+  .icon-card i { font-size: 2rem; color: #E6B800; }
+
+  
+/* HERO SECTION */
+.hero {
+  position: relative;
+  background: url('/SiteAtron/home/images/atron_motores.JPG') center center / cover no-repeat;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4); /* Escurecimento apenas da imagem */
+  z-index: 1;
+}
+
+.hero .hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 1200px;
+  padding: 0 20px;
+  width: 100%;
+  color: #000; /* Textos sem escurecimento */
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 25px;
+  max-width: 600px;
+  color: #ffffff;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .hero {
+    height: 380px;
+    padding: 40px 0;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .hero .hero-content {
+    padding: 0 15px;
+  }
+
+}
+
+
+  /* Lightbox */
+  .modal-img { max-width: 100%; }
+
+  #modalCaption {
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+  }
+
