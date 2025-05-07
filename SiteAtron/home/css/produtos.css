@@ -95,7 +95,7 @@
 
     /* Banner da página */
     .produtos-banner {
-      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('/SiteAtron/home/images/automatizador.JPG');
+      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('../images/automatizador.JPG');
       background-size: cover;
       background-position: center;
       height: 300px;
