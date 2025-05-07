@@ -13,7 +13,7 @@
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 	<link href="css/bootstrap.min.css" rel="stylesheet" />
 	<link href="css/bootstrap-responsive.min.css" rel="stylesheet" />
-	<link href="css/main.css" rel="stylesheet" /><!-- js --><script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script><script src="js/jquery-1.9.1.min.js"></script><script src="js/bootstrap.min.js"></script><script src="js/main.js"></script><script>setTimeout(function () { window.location.href = 'contato.html'; },5000);</script>
+	<link href="css/main.css" rel="stylesheet" /><!-- js --><script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script><script src="js/jquery-1.9.1.min.js"></script><script src="js/bootstrap.min.js"></script><script src="js/main.js"></script>
 </head>
 <body>
 <header class="navbar navbar-fixed-top">
@@ -37,8 +37,16 @@
 
 <section class="container" id="contact-page">
 <div class="row-fluid">
-<div class="span8"><img alt="contato" class="fotoCentro" src="images/contato.jpg" />
-<div class="status alert alert-success center">MENSAGEM ENVIADA!!!</div>
+<div class="span8"><img alt="Contato Atron" class="fotoCentro" src="images/contato.jpg" title="Contato Atron" />
+<h4>Envie sua mensagem</h4>
+
+<form accept-charset="UTF-8" action="php/enviar-contato.php" class="form" enctype="multipart/form-data" id="contact-form" method="post" name="contact-form">
+<div class="row-fluid">
+<div class="span5"><input class="input-block-level" id="nome" name="nome" placeholder="Nome" required="required" type="text" /> <input class="input-block-level" id="email" name="email" placeholder="E-Mail" required="required" type="email" /> <input class="input-block-level" id="telefone" name="telefone" placeholder="DDD+Telefone" required="required" type="tel" /></div>
+
+<div class="span7"><textarea class="input-block-level" id="mensagem" name="mensagem" placeholder="Digite uma mensagem..." required="" rows="8"></textarea><button class="btn btn-success btn-large pull-right" id="enviar" type="submit">Enviar Mensagem</button></div>
+</div>
+</form>
 </div>
 
 <div class="span3">
@@ -54,6 +62,8 @@
 S&atilde;o Paulo / SP</p>
 
 <p>&nbsp;<strong>E-mail: </strong><a href="mailto:sac@atron.com.br">sac@atron.com.br</a></p>
+<!--<p><i class="fa fa-envelope"></i>&nbsp;<strong>E-mail: </strong><a href="mailto:conexao@atron.com.br">conexao@atron.com.br</a></p>
+			<p><i class="fa fa-envelope"></i>&nbsp;<strong>E-mail: </strong><a href="mailto:vendas@atron.com.br">vendas@atron.com.br</a></p>-->
 
 <p>&nbsp;<strong>Atendimento: </strong></p>
 
@@ -62,11 +72,9 @@ S&atilde;o Paulo / SP</p>
 <p>&nbsp;<strong>Atendimento: </strong></p>
 
 <h4><a href="https://api.whatsapp.com/send/?phone=5511991465610" target="_blank">(11) 99146-5610</a></h4>
+<!--<h4><a href="https://api.whatsapp.com/send?phone=5511993878572" target="_blank">(11) 99387-8572</a></h4>-->
 
-<hr />
-<p>&nbsp;<strong>Hor&aacute;rio de atendimento:</strong><br />
-Segunda &agrave; Sexta, das 08h00 &agrave;s 16h00.</p>
-</div>
+<hr /><!-- <p><i class="fa fa-clock-o"></i>&nbsp;<strong>Horário de atendimento:</strong><br />Segunda à Sexta, das 07h00 às 17h00.</p><br /><strong>Lefer Vergueiro Rua Vergueiro, 8322 <br /> CEP: 04272-300</strong><br />Segunda à Sexta, das 08h00 às 17h00.<br />Sabado, das 08h00 às 11h30. </p> --></div>
 </div>
 </section>
 <!--bottom-->
@@ -168,14 +176,14 @@ Segunda &agrave; Sexta, das 08h00 &agrave;s 16h00.</p>
 
 <div class="modal hiden fade" id="modal-1">
 <div class="modal-body">
-<h3><a href="https://api.whatsapp.com/send/?phone=5511991465610" target="_blank"><img alt="whats" height="64" src="images/whatsapp-02.png" width="64" /> - Consultor</a></h3>
+<h3><a href="https://web.whatsapp.com/send?phone=5511947993452" target="_blank"><img alt="whats" height="64" src="images/whatsapp-02.png" width="64" /> - Consultor</a></h3>
 <!--<a href="https://web.whatsapp.com/send?phone=5511993878572" target="_blank"> <h3><img src="images/whatsapp-02.png" alt="whats" width="64" height="64"> - Vendedor 2</h3></a> --></div>
 </div>
-<a data-toggle="modal" href="https://api.whatsapp.com/send/?phone=11991465610"> <img alt="WhatsApp" class="whats2" data-selector="img" src="images/whatsapp-02.png" style="height:80px;position:fixed;bottom:25px;left:25px;z-index:10;" /></a>
+<a data-toggle="modal" href="https://api.whatsapp.com/send/?phone=5511991465610"> <img alt="WhatsApp" class="whats2" data-selector="img" src="images/whatsapp-02.png" style="height:80px;position:fixed;bottom:25px;left:25px;z-index:10;" /></a>
 
 <div class="modal hiden fade" id="modal-2">
 <div class="modal-body">
-<h3><a href="https://api.whatsapp.com/send/?phone=5511991465610" target="_blank"><img alt="whats" height="64" src="images/whatsapp-02.png" width="64" /> - Vendedor 1</a></h3>
+<h3><a href="https://api.whatsapp.com/send/?phone=5511947993452" target="_blank"><img alt="whats" height="64" src="images/whatsapp-02.png" width="64" /> - Vendedor 1</a></h3>
 </div>
 </div>
 <!--/whatsapp--></footer>

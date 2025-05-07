@@ -1,247 +1,603 @@
 <!DOCTYPE html>
-<html><!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]--><!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]--><!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]--><!--[if gt IE 8]> <html class="no-js" lang="pt-br"> <!--<![endif]-->
-<head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width" />
-	<title>Atron</title>
-	<!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=UA-207661314-1"></script><script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<html lang="pt-BR">
 
-  gtag('config', 'UA-207661314-1');
-</script><!-- icons -->
-	<link href="images/ico/favicon.ico" rel="shortcut icon" /><!-- css -->
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
-	<link href="css/bootstrap.min.css" rel="stylesheet" />
-	<link href="css/bootstrap-responsive.min.css" rel="stylesheet" />
-	<link href="css/main.css" rel="stylesheet" /><!-- js --><script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script><script src="js/jquery-1.9.1.min.js"></script><script src="js/bootstrap.min.js"></script><script src="js/main.js"></script>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Atron Motores - Produtos</title>
+  <link rel="icon" href="/api/placeholder/32/32" alt="favicon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/produtos.css">
+
 </head>
+
 <body>
-<header class="navbar navbar-fixed-top">
-<div class="navbar-inner">
-<div class="container"><a class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse"> </a>
-<div class="nav-collapse collapse pull-right">
-<ul class="nav">
-	<li><a href="index.html">Home</a></li>
-	<li><a href="empresa.html">Empresa</a></li>
-	<li><a href="produtos.html">Produtos</a></li>
-	<li><a href="videos.html">V&iacute;deos</a></li>
-	<li><a href="contato.html">Contato</a></li>
-	<li class="phone-topo"><a href="tel:01131686600">(11) 3168-6600</a></li>
-</ul>
-</div>
-<!--/.nav-collapse --></div>
-</div>
-</header>
+  <!-- Header -->
+  <header class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="redesign-home.html">
+        <img src="images/logo-01.png" alt="Atron" height="40">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="redesign-home.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="redesign-empresa.html">Empresa</a></li>
+          <li class="nav-item"><a class="nav-link active" href="produtos-page.html">Produtos</a></li>
+          <li class="nav-item"><a class="nav-link" href="videos.html">Vídeos</a></li>
+          <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://wa.me/5511988014644">
+              <i class="fab fa-whatsapp me-1"></i>(11) 98801-4644
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
 
-<section class="title">
-<div class="container">
-<div class="row-fluid">
-<div class="span7">
-<h1>Produtos</h1>
-</div>
+  <!-- Banner da página -->
+  <section class="produtos-banner">
+    <div class="container">
+      <h1 class="text-center">Nossos Produtos</h1>
+    </div>
+  </section>
 
-<div class="span5">
-<ul class="breadcrumb pull-right">
-	<li><a href="index.html" title="Home">Home</a> <span class="divider">/</span></li>
-	<li class="active">Produtos</li>
-</ul>
-</div>
-</div>
-</div>
-</section>
+  <!-- Breadcrumb
+  <div class="breadcrumb-section">
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="redesign-home.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Produtos</li>
+        </ol>
+      </nav>
+    </div>
+  </div> -->
 
-<section class="container">
-<div class="center">
-<h2>Produtos</h2>
+  <!-- Introdução aos Produtos -->
+  <section>
+    <div class="container">
+      <div class="section-heading">
+        <h2 class="text-center">Linha de Produtos Atron</h2>
+        <p class="text-center">Conheça nossa linha completa de automatizadores para portas de enrolar, desenvolvidos com
+          a mais alta tecnologia e qualidade para atender às necessidades de residências, comércios e indústrias.</p>
+      </div>
 
-<h4>Conhe&ccedil;a Nossa Linha de Produtos.</h4>
-﻿
+      <!-- Abas de categorias -->
+      <ul class="nav nav-tabs categoria-tabs justify-content-center" id="categoriaTabs" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="todos-tab" data-bs-toggle="tab" data-bs-target="#todos" type="button"
+            role="tab" aria-controls="todos" aria-selected="true">Todos os Produtos</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="motor-ac-tab" data-bs-toggle="tab" data-bs-target="#motor-ac" type="button"
+            role="tab" aria-controls="motor-ac" aria-selected="true">Motores</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="acessorios-tab" data-bs-toggle="tab" data-bs-target="#acessorios" type="button"
+            role="tab" aria-controls="acessorios" aria-selected="false">Acessórios</button>
+        </li>
+      </ul>
 
-<h4>Atendimento: <a href="tel:01131686600">(11) 3168-6600</a> / <a href="http://api.whatsapp.com/send/?phone=5511991465610">(11) 99146-5610</a></h4>
-</div>
+      <!-- Conteúdo das abas -->
+      <div class="tab-content" id="categoriaTabsContent">
+        <!-- Todos os produtos -->
+        <div class="tab-pane fade show active" id="todos" role="tabpanel" aria-labelledby="todos-tab">
+          <!-- Motor AC -->
+          <div class="category-section mt-5">
+            <h3 class="category-title">Motores</h3>
+            <div class="row mb-5">
+              <div class="col-12">
+                <div class="product-card">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-12">
+                      <div class="product-image">
+                        <img src="images/produto-01.jpg" alt="Motor AC" class="img-fluid">
+                      </div>
+                    </div>
+                    <div class="col-lg-8 col-md-12">
+                      <div class="product-body">
+                        <h3 class="product-title">Motor AC</h3>
+                        <p class="product-text">Ideal para portas de enrolar comerciais com até 12m², oferecendo
+                          potência e
+                          resistência para uso intenso.</p>
+                        <!-- Seletor de modelos -->
+                        <div class="model-selector" id="ac-model-selector">
+                          <button class="model-btn active" data-model="AC200">AC200</button>
+                          <button class="model-btn" data-model="AC300">AC300</button>
+                          <button class="model-btn" data-model="AC400">AC400</button>
+                          <button class="model-btn" data-model="AC500">AC500</button>
+                          <button class="model-btn" data-model="AC600">AC600</button>
+                          <button class="model-btn" data-model="AC700">AC700</button>
+                          <button class="model-btn" data-model="AC800">AC800</button>
+                          <button class="model-btn" data-model="AC1000">AC1000</button>
+                          <button class="model-btn" data-model="AC1500">AC1500</button>
+                          <button class="model-btn" data-model="AC2000">AC2000</button>
+                        </div>
+                        <!-- Tabela de especificações AC -->
+                        <div class="table-responsive">
+                          <table class="specs-table" id="ac-specs-table">
+                            <thead>
+                              <tr>
+                                <th>Modelo</th>
+                                <th>Potência</th>
+                                <th>Freq.</th>
+                                <th>Voltagem</th>
+                                <th>Corrente</th>
+                                <th>Peso (kg)</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr class="modelo-row visible" data-model="AC200">
+                                <td>AC200</td>
+                                <td>368 W</td>
+                                <td>60 HZ</td>
+                                <td>220 V</td>
+                                <td>1,5 A</td>
+                                <td>11,8</td>
+                              </tr>
+                              <tr class="modelo-row hidden" data-model="AC300">
+                                <td>AC300</td>
+                                <td>490 W</td>
+                                <td>60 HZ</td>
+                                <td>220 V</td>
+                                <td>2,31 A</td>
+                                <td>12,45</td>
+                              </tr>
+                              <tr class="modelo-row hidden" data-model="AC400">
+                                <td>AC400</td>
+                                <td>515 W</td>
+                                <td>60 HZ</td>
+                                <td>220 V</td>
+                                <td>2,41 A</td>
+                                <td>12,45</td>
+                              </tr>
+                              <tr class="modelo-row hidden" data-model="AC500">
+                                <td>AC500</td>
+                                <td>708 W</td>
+                                <td>60 HZ</td>
+                                <td>220 V</td>
+                                <td>3,44 A</td>
+                                <td>13,3</td>
+                              </tr>
+                              <tr class="modelo-row hidden" data-model="AC600">
+                                <td>AC600</td>
+                                <td>775 W</td>
+                                <td>60 HZ</td>
+                                <td>220 V</td>
+                                <td>4 A</td>
+                                <td>13,3</td>
+                              </tr>
+                              <tr class="modelo-row hidden" data-model="AC700">
+                                <td>AC700</td>
+                                <td>802 W</td>
+                                <td>60 HZ</td>
+                                <td>220 V</td>
+                                <td>4,7 A</td>
+                                <td>15,9</td>
+                              </tr>
+                              <tr class="modelo-row hidden" data-model="AC800">
+                                <td>AC800</td>
+                                <td>1160 W</td>
+                                <td>60 HZ</td>
+                                <td>220 V</td>
+                                <td>5,6 A</td>
+                                <td>17</td>
+                              </tr>
+                              <tr class="modelo-row hidden" data-model="AC1000">
+                                <td>AC1000</td>
+                                <td>1353 W</td>
+                                <td>60 HZ</td>
+                                <td>220 V</td>
+                                <td>6,5 A</td>
+                                <td>18</td>
+                              </tr>
+                              <tr class="modelo-row hidden" data-model="AC1500">
+                                <td>AC1500</td>
+                                <td>1646 W</td>
+                                <td>60 HZ</td>
+                                <td>220 V</td>
+                                <td>6,7 A</td>
+                                <td>22</td>
+                              </tr>
+                              <tr class="modelo-row hidden" data-model="AC2000">
+                                <td>AC2000</td>
+                                <td>1904 W</td>
+                                <td>60 HZ</td>
+                                <td>220 V</td>
+                                <td>6,8 A</td>
+                                <td>30</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <a href="http://wa.me/5511988014644" class="btn btn-primary mt-3">Solicitar um Orçamento</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-<hr />
-<div class="container">
-<div class="row-fluid">
-<div class="span4">
-<div class="center box"><a href="produto-01.html"><img alt="Produtos" src="images/produto-01.jpg" /> </a>
+            <!-- Motor DC -->
+            <div class="row">
+              <div class="col-12">
+                <div class="product-card">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-12">
+                      <div class="product-image">
+                        <img src="images/produto-02.jpg" alt="Motor DC" class="img-fluid">
+                      </div>
+                    </div>
+                    <div class="col-lg-8 col-md-12">
+                      <div class="product-body">
+                        <h3 class="product-title">Motor DC</h3>
+                        <p class="product-text">Operação rápida e silenciosa, ideal para residências que buscam conforto
+                          e
+                          praticidade sem ruídos.</p>
 
-<p></p>
-<a href="produto-01.html"> </a>
+                        <!-- Seletor de modelos -->
+                        <div class="model-selector" id="dc-model-selector">
+                          <button class="model-btn active" data-model="DC200">DC200</button>
+                          <button class="model-btn" data-model="DC300">DC300</button>
+                          <button class="model-btn" data-model="DC400">DC400</button>
+                          <button class="model-btn" data-model="DC500">DC500</button>
+                          <button class="model-btn" data-model="DC600">DC600</button>
+                          <button class="model-btn" data-model="DC700">DC700</button>
+                        </div>
 
-<h4><a href="produto-01.html">Motor AC</a></h4>
+                        <!-- Tabela de especificações DC -->
+                        <div class="table-responsive">
+                          <table class="specs-table" id="dc-specs-table">
+                            <thead>
+                              <tr>
+                                <th>Modelo</th>
+                                <th>Potência</th>
+                                <th>Freq.</th>
+                                <th>Voltagem</th>
+                                <th>Corrente</th>
+                                <th>Peso (kg)</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr class="modelo-row visible" data-model="DC200">
+                                <td>DC200</td>
+                                <td>150 W</td>
+                                <td>60 HZ</td>
+                                <td>220 V</td>
+                                <td>8 A</td>
+                                <td>16,8</td>
+                              </tr>
+                              <tr class="modelo-row hidden" data-model="DC300">
+                                <td>DC300</td>
+                                <td>170 W</td>
+                                <td>60 HZ</td>
+                                <td>220 V</td>
+                                <td>9 A</td>
+                                <td>18,6</td>
+                              </tr>
+                              <tr class="modelo-row hidden" data-model="DC400">
+                                <td>DC400</td>
+                                <td>180 W</td>
+                                <td>60 HZ</td>
+                                <td>220 V</td>
+                                <td>10 A</td>
+                                <td>19,2</td>
+                              </tr>
+                              <tr class="modelo-row hidden" data-model="DC500">
+                                <td>DC500</td>
+                                <td>200 W</td>
+                                <td>60 HZ</td>
+                                <td>220 V</td>
+                                <td>15 A</td>
+                                <td>20,15</td>
+                              </tr>
+                              <tr class="modelo-row hidden" data-model="DC600">
+                                <td>DC600</td>
+                                <td>220 W</td>
+                                <td>60 HZ</td>
+                                <td>220 V</td>
+                                <td>16 A</td>
+                                <td>20,15</td>
+                              </tr>
+                              <tr class="modelo-row hidden" data-model="DC700">
+                                <td>DC700</td>
+                                <td>250 W</td>
+                                <td>60 HZ</td>
+                                <td>220 V</td>
+                                <td>18 A</td>
+                                <td>23,7</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <a href="http://wa.me/5511988014644" class="btn btn-primary mt-3">Solicitar um Orçamento</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-<div class="main-border orange"></div>
 
-<p></p>
+          <!-- Acessórios -->
+          <div class="category-section mt-5">
+            <h3 class="category-title">Acessórios</h3>
+            <div class="row">
+              <div class="col-lg-4 col-md-6">
+                <div class="product-card">
+                  <div class="product-image">
+                    <img src="images/botoeira.JPG" alt="Botoeira">
+                  </div>
+                  <div class="product-body">
+                    <h3 class="product-title">Botoeira</h3>
+                    <p class="product-text">Controle simples e eficiente para operação manual da porta de enrolar com
+                      instalação prática e durável.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="product-card">
+                  <div class="product-image">
+                    <img src="images/nobreak_atron_01.JPG" alt="No Break">
+                  </div>
+                  <div class="product-body">
+                    <h3 class="product-title">No Break</h3>
+                    <p class="product-text">Solução para quedas de energia, mantendo o funcionamento do motor mesmo em
+                      situações de interrupção elétrica.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="product-card">
+                  <div class="product-image">
+                    <img src="images/central_de_comando_atron.JPG" alt="Kit Controle">
+                  </div>
+                  <div class="product-body">
+                    <h3 class="product-title">Kit Controle</h3>
+                    <p class="product-text">Conjunto de controles remoto para operação à distância, com tecnologia
+                      anti-clonagem para maior segurança.</p>
+                  </div>
+                </div>
+              </div>
+              <div style="height: 20px;"></div>
+              <div class="col-lg-4 col-md-6">
+                <div class="product-card">
+                  <div class="product-image">
+                    <img src="images/controle_de_comando_atron.JPG" alt="Controle de comando">
+                  </div>
+                  <div class="product-body">
+                    <h3 class="product-title">Controle de comando</h3>
+                    <p class="product-text">Equipamento avançado para operação automatizada com opções de programação e
+                      integração.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="product-card">
+                  <div class="product-image">
+                    <img src="images/cw21_central_via_wifi_atron.JPG" alt="CW21 - Central via WiFi">
+                  </div>
+                  <div class="product-body">
+                    <h3 class="product-title">CW21 - Central via WiFi</h3>
+                    <p class="product-text">Controle remoto via aplicativo, permitindo a operação da porta de qualquer
+                      lugar através da internet.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="product-card">
+                  <div class="product-image">
+                    <img src="images/botoeira_sem_fio_atron.JPG" alt="Botoeira sem Fio">
+                  </div>
+                  <div class="product-body">
+                    <h3 class="product-title">Botoeira sem Fio</h3>
+                    <p class="product-text">Solução prática sem necessidade de cabeamento, facilitando a instalação em
+                      qualquer ambiente.</p>
+                  </div>
+                </div>
+              </div>
+              <div style="height: 20px;"></div>
+              <div class="col-lg-4 col-md-6">
+                <div class="product-card">
+                  <div class="product-image">
+                    <img src="images/produto-03-04.jpg" alt="Infravermelho">
+                  </div>
+                  <div class="product-body">
+                    <h3 class="product-title">Infravermelho</h3>
+                    <p class="product-text">Sensor de segurança que impede o fechamento da porta quando há obstáculos,
+                      evitando acidentes.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="product-card">
+                  <div class="product-image">
+                    <img src="images/anti_queda_atron.JPG" alt="Antiqueda até 2000kg">
+                  </div>
+                  <div class="product-body">
+                    <h3 class="product-title">Antiqueda até 2000kg</h3>
+                    <p class="product-text">Sistema de segurança para portas de grande porte, evitando quedas em caso de
+                      falha no motor.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="product-card">
+                  <div class="product-image">
+                    <img src="images/anti_queda_700kg_atron.JPG" alt="Antiqueda até 700kg">
+                  </div>
+                  <div class="product-body">
+                    <h3 class="product-title">Antiqueda até 700kg</h3>
+                    <p class="product-text">Versão mais compacta do sistema antiqueda, ideal para portas residenciais e
+                      comerciais de menor porte.</p>
+                  </div>
+                </div>
+              </div>
+              <div style="height: 20px;"></div>
 
-<p>Automatizadores AC.</p>
+              <div class="col-lg-4 col-md-6">
+                <div class="product-card">
+                  <div class="product-image">
+                    <img src="images/produto-03-07.jpg" alt="Chapa Testeira Individual">
+                  </div>
+                  <div class="product-body">
+                    <h3 class="product-title">Chapa Testeira Individual</h3>
+                    <p class="product-text">Componente de fixação para instalação segura do motor no sistema de porta de
+                      enrolar.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="product-card">
+                  <div class="product-image">
+                    <img src="images/caixa_de_inox_para_botoeira.JPG" alt="Caixa de Inox">
+                  </div>
+                  <div class="product-body">
+                    <h3 class="product-title">Caixa de Inox</h3>
+                    <p class="product-text">Componente de fixação para a instalação segura do motor no sistema de porta
+                      de
+                      enrolar.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <div class="footer-logo">
+            <h4>Atron Motores</h4>
+          </div>
+          <p>Há mais de duas décadas oferecendo soluções de qualidade em automatizadores para residências e
+            empresas.</p>
+        </div>
+        <div class="col-lg-4 mb-4 mb-lg-0 footer-contact">
+          <h4 class="footer-heading">Contato</h4>
+          <ul class="list-unstyled footer-contact">
+            <li><i class="fas fa-envelope"></i> sac@atron.com.br</li>
+            <li><i class="fas fa-map-marker-alt"></i> Rua João Mafra, 375<br>04288-000 - Ipiranga<br>São Paulo
+              / SP</li>
+            <li><i class="fas fa-phone"></i> (11) 3168-6600</li>
+            <li><i class="fab fa-whatsapp"></i> <a href="http://wa.me/5511988014644">(11) 98801-4644</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <h4 class="footer-heading">Redes Sociais</h4>
+          <div class="d-flex gap-3">
+            <a href="#" class="text-white fs-4"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="text-white fs-4"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-white fs-4"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="text-white fs-4"><i class="fab fa-youtube"></i></a>
+          </div>
 
-<div class="center"><a class="btn btn-primary btn-large" href="produto-01.html">saiba mais </a></div>
-</div>
-</div>
+          <div class="mt-4">
+            <img src="images/logo-ad.png" alt="Logo Grupo AD" class="img-fluid" style="max-height: 100px;">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="mb-md-0">© 2025 Atron Motores. Todos os direitos reservados.</p>
+          </div>
+          <div class="col-md-6 text-md-end">
+            <p>Desenvolvido por <a href="#" class="text-primary">Grupo AD</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
 
-<div class="span4">
-<div class="center box"><a href="produto-02.html"><img alt="Produtos" src="images/produto-02.jpg" /> </a>
+  <!-- Script de filtro das abas -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const filterButtons = document.querySelectorAll('[data-filter]');
+      const produtos = document.querySelectorAll('.produto');
 
-<p></p>
-<a href="produto-02.html"> </a>
+      filterButtons.forEach(button => {
+        button.addEventListener('click', () => {
+          const categoria = button.getAttribute('data-filter');
 
-<h4><a href="produto-02.html">Motor DC</a></h4>
+          filterButtons.forEach(btn => btn.classList.remove('active'));
+          button.classList.add('active');
 
-<div class="main-border orange"></div>
+          produtos.forEach(produto => {
+            const produtoCategoria = produto.getAttribute('data-category');
 
-<p></p>
+            if (categoria === 'todos' || produtoCategoria === categoria) {
+              produto.style.display = 'block';
+            } else {
+              produto.style.display = 'none';
+            }
+          });
+        });
+      });
+    });
+  </script>
 
-<p>Automatizadores DC.</p>
 
-<div class="center"><a class="btn btn-primary btn-large" href="produto-02.html">saiba mais </a></div>
-</div>
-</div>
+  <!-- JavaScript para o funcionamento dos seletores -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Função para configurar o seletor de modelos
+      function setupModelSelector(selectorId, tableId) {
+        const modelBtns = document.querySelectorAll(`#${selectorId} .model-btn`);
+        const modelRows = document.querySelectorAll(`#${tableId} .modelo-row`);
 
-<div class="span4">
-<div class="center box"><a href="acessorios_atron.html"><img alt="Produtos" src="images/produto-03.jpg" /> </a>
+        modelBtns.forEach(btn => {
+          btn.addEventListener('click', function () {
+            const model = this.getAttribute('data-model');
 
-<p></p>
-<a href="acessorios_atron.html"> </a>
+            // Atualiza os botões
+            modelBtns.forEach(b => b.classList.remove('active'));
+            this.classList.add('active');
 
-<h4><a href="acessorios_atron.html">Acess&oacute;rios</a></h4>
+            // Atualiza as linhas da tabela
+            modelRows.forEach(row => {
+              if (row.getAttribute('data-model') === model) {
+                row.classList.add('visible');
+                row.classList.remove('hidden');
+              } else {
+                row.classList.remove('visible');
+                row.classList.add('hidden');
+              }
+            });
+          });
+        });
+      }
 
-<div class="main-border orange"></div>
+      // Configura os seletores de modelos para AC e DC
+      setupModelSelector('ac-model-selector', 'ac-specs-table');
+      setupModelSelector('dc-model-selector', 'dc-specs-table');
+    });
+  </script>
 
-<p></p>
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
-<p>Acess&oacute;rios para Automatiza&ccedil;&atilde;o.</p>
 
-<div class="center"><a class="btn btn-primary btn-large" href="acessorios_atron.html">saiba mais </a></div>
-</div>
-</div>
-</div>
-</div>
-</section>
+</body>
 
-<section class="main-info">
-<div class="container">
-<div class="row-fluid">
-<div class="span9">
-<h4>Fale com a Atron</h4>
-
-<p class="no-margin">Entre em contato com nossos profissionais e solicite um or&ccedil;amento.</p>
-</div>
-
-<div class="span3"><a class="btn btn-transparent btn-large pull-right" href="contato.html">Envie sua Mensagem</a></div>
-</div>
-</div>
-</section>
-<!--bottom-->
-
-<section class="main" id="bottom"><!--container-->
-<div class="container"><!--row-fluids-->
-<div class="row-fluid"><!--endereco-->
-<div class="span4">
-<h4>ENTRE EM CONTATO</h4>
-
-<p>&nbsp;<strong>E-mail: </strong><a href="mailto:sac@atron.com.br">sac@atron.com.br</a></p>
-
-<ul class="unstyled address">
-	<li>Rua Jo&atilde;o Mafra, 375<br />
-	04288-000 - Ipiranga<br />
-	S&atilde;o Paulo / SP</li>
-	<!--<p><i class="fa fa-envelope"></i>&nbsp;<strong>E-mail: </strong><a href="mailto:conexao@atron.com.br">conexao@atron.com.br</a></p>
-			<p><i class="fa fa-envelope"></i>&nbsp;<strong>E-mail: </strong><a href="mailto:vendas@atron.com.br">vendas@atron.com.br</a></p>-->
-	<li><strong>Atendimento: </strong>
-	<h4><a href="tel:01131686600">(11) 3168-6600</a></h4>
-	</li>
-	<li><strong>Whats App: </strong>
-	<h4><a href="https://api.whatsapp.com/send/?phone=5511991465610" target="_blank">(11) 99146-5610</a></h4>
-	<!--<h4><a href="https://api.whatsapp.com/send?phone=5511993878572" target="_blank">(11) 96646-0854</a></h4>--></li>
-</ul>
-</div>
-<!--/endereco--><!--menu-->
-
-<div class="span2">
-<h4>MENU</h4>
-
-<div>
-<ul class="arrow">
-	<li><a href="index.html">Home</a></li>
-	<li><a href="empresa.html">Empresa</a></li>
-	<li><a href="produtos.html">Produtos</a></li>
-	<li><a href="videos.html">V&iacute;deos</a></li>
-	<li><a href="contato.html">Contato</a></li>
-</ul>
-</div>
-</div>
-<!--/menu--><!--menu2-->
-
-<div class="span3">
-<div>
-<ul class="arrow">
-	<li><a href="produto-01.html">Motor AC</a></li>
-	<li><a href="produto-02.html">Motor DC</a></li>
-	<li><a href="acessorios_atron.html">Acess&oacute;rios</a></li>
-</ul>
-</div>
-</div>
-<!--/menu2-->
-
-<div class="span3" id="rodape-face">
-<div class="row-fluid">
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.3";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-<div class="fb-page" data-adapt-container-width="true" data-hide-cover="false" data-href="https://www.facebook.com/P%C3%A1gina-Atron-Motores-104537424485589" data-show-facepile="true" data-show-posts="false" data-small-header="false">
-<div class="fb-xfbml-parse-ignore">
-<blockquote cite="https://www.facebook.com/P%C3%A1gina-Atron-Motores-104537424485589"><a href="https://www.facebook.com/P%C3%A1gina-Atron-Motores-104537424485589">Facebook</a></blockquote>
-</div>
-</div>
-</div>
-</div>
-</div>
-<!--/row-fluid--></div>
-<!--/container--></section>
-<!--/bottom--><!--footer-->
-
-<footer id="footer">
-<div class="container">
-<div class="row-fluid">
-<div class="span5 cp">&copy; 2020-2021 <a href="" title=" Motores">Atron</a>. Todos os Direitos Reservados.</div>
-<!--/copyright-->
-
-<div class="span6">
-<ul class="social pull-right">
-	<li></li>
-	<li></li>
-	<li></li>
-	<li></li>
-	<li></li>
-	<li></li>
-</ul>
-</div>
-
-<div class="span1"></div>
-<!--/go to top--></div>
-</div>
-<!--whatsapp--><a data-toggle="modal" href="https://api.whatsapp.com/send/?phone=5511991465610"><img alt="WhatsApp" class="whats1" data-selector="img" src="images/whatsapp-01.png" style="height:80px;position:fixed;bottom:55px;right:25px;z-index:10;" /></a>
-
-<div class="modal hiden fade" id="modal-1">
-<div class="modal-body">
-<h3><a href="https://api.whatsapp.com/send/?phone=5511991465610" target="_blank"><img alt="whats" height="64" src="images/whatsapp-02.png" width="64" /> - Consultor</a></h3>
-<!--<a href="https://web.whatsapp.com/send?phone=5511993878572" target="_blank"> <h3><img src="images/whatsapp-02.png" alt="whats" width="64" height="64"> - Vendedor 2</h3></a> --></div>
-</div>
-<a data-toggle="modal" href="https://api.whatsapp.com/send/?phone=5511991465610"> <img alt="WhatsApp" class="whats2" data-selector="img" src="images/whatsapp-02.png" style="height:80px;position:fixed;bottom:25px;left:25px;z-index:10;" /></a>
-
-<div class="modal hiden fade" id="modal-2">
-<div class="modal-body">
-<h3><a href="https://api.whatsapp.com/send/?phone=5511991465610" target="_blank"><img alt="whats" height="64" src="images/whatsapp-02.png" width="64" /> - Vendedor 1</a></h3>
-</div>
-</div>
-<!--/whatsapp--></footer>
-<!--/footer--></body>
 </html>
