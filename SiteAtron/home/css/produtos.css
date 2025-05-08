@@ -94,24 +94,53 @@
     }
 
     /* Banner da página */
+    /* Banner da página */
     .produtos-banner {
-      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('../images/automatizador.JPG');
+      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/automatizador.JPG');
       background-size: cover;
       background-position: center;
-      height: 300px;
+      height: 40vh;
+      min-height: 300px;
       display: flex;
       align-items: center;
-      justify-content: center;
       color: white;
       position: relative;
-      margin-top: 0 !important; /* Removido o margin-top de 76px */
-      padding-top: 76px; /* Adicionado padding-top para compensar a altura da navbar */
+      margin-top: 0 !important;
+      padding-top: 76px;
+    }
+
+    .banner-content {
+      position: relative;
+      z-index: 2;
+      max-width: 800px;
+      animation: fadeInUp 1s ease;
     }
 
     .produtos-banner h1 {
       font-weight: 800;
-      position: relative;
-      z-index: 2;
+      margin-bottom: 1.5rem;
+      color: var(--light);
+      animation: fadeInUp 1s ease;
+      text-align: left;
+    }
+
+    .produtos-banner p {
+      font-size: 1.25rem;
+      margin-bottom: 2rem;
+      opacity: 0.9;
+      color: white;
+      animation: fadeInUp 1.2s ease;
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
 
     /* Breadcrumb */

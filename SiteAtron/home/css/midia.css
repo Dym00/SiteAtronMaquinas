@@ -1,6 +1,25 @@
 /* CSS para página de mídia */
 
 /* Estilos específicos para a página de mídias */
+
+:root {
+  --primary: #fcce3a;
+  --primary-hover: #FCA63A;
+  --dark: #111111;
+  --light: #F8F9FA;
+  --gray: #6c757d;
+  --section-spacing: 6rem;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--light);
+  color: var(--dark);
+  scroll-behavior: smooth;
+}
+
+
+
 .hero-small {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/heroPorta.png');
   background-size: cover;
@@ -11,7 +30,30 @@
   display: flex;
   align-items: center;
   padding-top: 76px;
+
 }
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  animation: fadeInUp 1s ease;
+}
+
+.hero-small h1 {
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  color: var(--light);
+}
+
+.hero-small p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+  color: white;
+  animation: fadeInUp 1.2s ease;
+}
+
 
 
 /* Seção de Redes Sociais */
