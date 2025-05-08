@@ -1,0 +1,251 @@
+/* CSS para página de mídia */
+
+/* Estilos específicos para a página de mídias */
+.hero-small {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/heroPorta.png');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 40vh;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  padding-top: 76px;
+}
+
+
+/* Seção de Redes Sociais */
+.social-networks {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+}
+
+.social-card {
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.07);
+  overflow: hidden;
+  transition: all 0.3s ease;
+  background-color: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.social-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.social-icon {
+  margin-bottom: 20px;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 60px;
+}
+
+.social-card .social-icon i {
+  font-size: 26px;
+  color: white;
+}
+
+.social-card.instagram .social-icon {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+
+.social-card.facebook .social-icon {
+  background-color: #3b5998;
+}
+
+.social-card.linkedin .social-icon {
+  background-color: #0077b5;
+}
+
+.social-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  color: #111;
+}
+
+.social-card p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.social-card .btn-outline-primary {
+  border-color: var(--primary);
+  color: var(--primary);
+  padding: 8px 15px;
+  margin-bottom: 20px;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.social-card .btn-outline-primary:hover {
+  background-color: var(--primary);
+  color: white;
+}
+
+.social-card img {
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+/* Para feed grid do Instagram */
+.instagram-feed {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.instagram-item {
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+/* Para widgets do Facebook */
+.fb-page {
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* Para LinkedIn */
+.linkedin-feed iframe {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.linkedin-feed {
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.linkedin-feed iframe {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Seção de vídeos do YouTube */
+.youtube-section {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+}
+
+.video-card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.07);
+  overflow: hidden;
+  transition: all 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.video-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.video-info {
+  padding: 20px;
+  text-align: center;
+}
+
+.video-info h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #111;
+}
+
+.video-info p {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 0;
+}
+
+.video-placeholder {
+  background-color: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 16px;
+  height: 100%;
+}
+
+.video-card.video-placeholder {
+  background: linear-gradient(145deg, #e6e9ec, #ffffff);
+}
+
+.placeholder-content {
+  text-align: center;
+  padding: 30px;
+}
+
+.placeholder-content i {
+  font-size: 40px;
+  color: var(--primary);
+  margin-bottom: 15px;
+}
+
+.placeholder-content h3 {
+  margin-bottom: 10px;
+}
+
+/* Responsividade */
+@media (max-width: 991px) {
+  .social-card {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-small {
+    height: 50vh;
+  }
+  
+  .social-networks, .youtube-section {
+    padding: 50px 0;
+  }
+  
+  .video-card {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-small {
+    height: 60vh;
+  }
+  
+  .social-networks, .youtube-section {
+    padding: 30px 0;
+  }
+  
+  .video-info h3 {
+    font-size: 1rem;
+  }
+}
