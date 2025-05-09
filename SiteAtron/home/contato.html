@@ -8,7 +8,8 @@
 
   <!-- SEO Básico -->
   <title>Contato - Atron Motores</title>
-  <meta name="description" content="Entre em contato com a Atron Motores para obter mais informações sobre nossos produtos, suporte técnico e solicitar orçamentos.">
+  <meta name="description"
+    content="Entre em contato com a Atron Motores para obter mais informações sobre nossos produtos, suporte técnico e solicitar orçamentos.">
   <meta name="keywords" content="Atron, Contato, Suporte Técnico, Motores, Automatizador">
   <meta name="author" content="Atron Motores">
 
@@ -31,8 +32,9 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
@@ -88,8 +90,9 @@
         <div class="col-lg-5 mb-5 mb-lg-0">
           <div class="contact-info">
             <h3>Informações de Contato</h3>
-            <p>Entre em contato conosco escolhendo qual a melhor forma, seja via telefone, e-mail ou nosso formulário.</p>
-            
+            <p>Entre em contato conosco escolhendo qual a melhor forma, seja via telefone, e-mail ou nosso formulário.
+            </p>
+
             <div class="contact-item">
               <i class="fas fa-map-marker-alt"></i>
               <div>
@@ -121,35 +124,43 @@
                 <p>Segunda à Sexta, das 08h00 às 16h00</p>
               </div>
             </div>
-            
+
             <div class="contact-item">
               <i class="fab fa-whatsapp"></i>
               <div>
                 <h4>WhatsApp</h4>
                 <p><a href="https://api.whatsapp.com/send/?phone=5511988014644" target="_blank">
                     (11) 98801-4644
-                </a></p>
+                  </a></p>
               </div>
             </div>
           </div>
         </div>
-        
+
+        <!-- EmailJS SDK -->
+        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+        <script>
+          (function () {
+            emailjs.init("WRhO4AL-86JmKzaBZ"); // Substitua pelo seu Public Key (User ID)
+          })();
+        </script>
+
         <!-- Formulário de Contato -->
         <div class="col-lg-6 offset-lg-1">
           <div class="contact-form-wrapper">
             <h3>Envie sua Mensagem</h3>
             <form id="contactForm" class="contact-form">
               <div class="mb-4">
-                <input type="text" class="form-control" placeholder="Nome Completo" required>
+                <input type="text" class="form-control" placeholder="Nome Completo" name="nome" required>
               </div>
               <div class="mb-4">
-                <input type="email" class="form-control" placeholder="Seu E-mail" required>
+                <input type="email" class="form-control" placeholder="Seu E-mail" name="email" required>
               </div>
               <div class="mb-4">
-                <input type="tel" class="form-control" placeholder="Telefone">
+                <input type="tel" class="form-control" placeholder="Telefone" name="telefone" required>
               </div>
               <div class="mb-4">
-                <select class="form-control">
+                <select class="form-control" name="assunto" required>
                   <option selected>Selecione o Assunto</option>
                   <option>Orçamento</option>
                   <option>Suporte Técnico</option>
@@ -158,7 +169,7 @@
                 </select>
               </div>
               <div class="mb-4">
-                <textarea class="form-control" rows="5" placeholder="Mensagem" required></textarea>
+                <textarea class="form-control" rows="5" placeholder="Mensagem" name="mensagem" required></textarea>
               </div>
               <button type="submit" class="btn btn-send">Enviar Mensagem</button>
             </form>
@@ -175,7 +186,10 @@
         <h2>Nossa Localização</h2>
       </div>
       <div class="map-container">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1827.8977108866336!2d-46.614846064165484!3d-23.611668812602904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5ba210b99dbd%3A0x475a56209ee5569d!2sAtron!5e0!3m2!1spt-BR!2sbr!4v1582207398077!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1827.8977108866336!2d-46.614846064165484!3d-23.611668812602904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5ba210b99dbd%3A0x475a56209ee5569d!2sAtron!5e0!3m2!1spt-BR!2sbr!4v1582207398077!5m2!1spt-BR!2sbr"
+          width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
   </section>
@@ -188,7 +202,8 @@
           <div class="footer-logo">
             <h4>Atron Motores</h4>
           </div>
-          <p>Há mais de duas décadas oferecendo soluções de qualidade em automatizadores para residências e empresas.</p>
+          <p>Há mais de duas décadas oferecendo soluções de qualidade em automatizadores para residências e empresas.
+          </p>
         </div>
         <div class="col-lg-4 mb-4 mb-lg-0 footer-contact">
           <h4 class="footer-heading">Contato</h4>
@@ -203,18 +218,19 @@
           <h4 class="footer-heading">Redes Sociais</h4>
           <div class="d-flex gap-3">
             <a href="https://www.facebook.com/atronmotores" class="text-white fs-4"><i class="fab fa-facebook"></i></a>
-            <a href="https://www.instagram.com/atronmotores/" class="text-white fs-4"><i class="fab fa-instagram"></i></a>
-            <a href="#" class="text-white fs-4"><i class="fab fa-linkedin"></i></a>
-            <a href="#" class="text-white fs-4"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.instagram.com/atronmotores/" class="text-white fs-4"><i
+                class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UC7rat2Q8dbBJemQv4QSxSiA" class="text-white fs-4"><i
+                class="fab fa-youtube"></i></a>
           </div>
-          
+
           <div class="mt-4">
             <img src="images/logo-ad.png" alt="Logo Grupo AD" class="img-fluid" style="max-height: 100px;">
           </div>
         </div>
       </div>
     </div>
-    
+
     <div class="footer-bottom">
       <div class="container">
         <div class="row">
@@ -236,5 +252,20 @@
 
   <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+      event.preventDefault();
+  
+      emailjs.sendForm('service_8clrlig', 'template_2mszuth', this)
+        .then(function() {
+          alert('Mensagem enviada com sucesso!');
+          document.getElementById('contactForm').reset();
+        }, function(error) {
+          alert('Erro ao enviar mensagem: ' + JSON.stringify(error));
+        });
+    });
+  </script>
 </body>
+
 </html>
