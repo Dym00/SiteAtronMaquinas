@@ -246,7 +246,7 @@
   </footer>
 
   <!-- WhatsApp Button -->
-  <a href="https://wa.me/5511988014644" class="whatsapp-btn" target="_blank">
+  <a href="https://wa.me/5511988014644" style="text-decoration:none" class="whatsapp-btn" target="_blank">
     <i class="fab fa-whatsapp"></i>
   </a>
 
@@ -257,7 +257,7 @@
     document.getElementById('contactForm').addEventListener('submit', function(event) {
       event.preventDefault();
   
-      emailjs.sendForm('service_8clrlig', 'template_2mszuth', this)
+      emailjs.sendForm('service_5ua2zje', 'template_2mszuth', this)
         .then(function() {
           alert('Mensagem enviada com sucesso!');
           document.getElementById('contactForm').reset();
